@@ -42,19 +42,3 @@ def combine():
 combine()
 
 
-def fact():
-    num = int(input("Enter value: "))
-    ness(num)
-
-
-def ness(time):
-    n = 1
-    if time >= 0:
-        for iem in range(time):
-            iem += 1
-            n *= iem
-        print(n)
-    else:
-        if time < 0:
-            print(f"Integer not positive")
-
